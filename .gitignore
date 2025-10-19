@@ -1,0 +1,4 @@
+﻿/.dart_tool/
+/build/
+/.gradle/
+/android/app/*.apk
