@@ -132,12 +132,6 @@ If given more time, these features would enhance the app:
 
 https://github.com/user-attachments/assets/4643e94a-4328-40ee-9300-844989b8cb9c
 
-> **Note:** Video should be max 2 minutes showing:
-> - Home screen navigation
-> - QR scanning animation
-> - Confirmation flow
-> - Rewards browsing and redemption
-
 ---
 
 ## 📄 License
