@@ -136,7 +136,7 @@ If given more time, these features would enhance the app:
 
 ## 🎬 Demo Video
 
-**[Add your demo video link here]**
+https://github.com/user-attachments/assets/4643e94a-4328-40ee-9300-844989b8cb9c
 
 > **Note:** Video should be max 2 minutes showing:
 > - Home screen navigation
