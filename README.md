@@ -37,9 +37,39 @@ flutter run
 ### Project Structure
 ```
 lib/
-├── core/           # Shared utilities, theme, widgets, DI
-├── features/       # Feature modules (home, qr_scan, rewards, navigation)
-└── main.dart       # App entry point
+├── core/
+│   ├── di/                 # Dependency injection (GetIt setup)
+│   ├── helpers/            # Extension methods & utilities
+│   ├── routing/            # App navigation & routes
+│   ├── theme/              # Colors & text styles
+│   └── widgets/            # Reusable UI components
+├── features/
+│   ├── home/
+│   │   ├── data/
+│   │   │   ├── models/     # User & RVM models
+│   │   │   └── repo/       # RVM repository
+│   │   └── ui/
+│   │       ├── cubit/      # User data & home state
+│   │       ├── screens/    # Home screen
+│   │       └── widgets/    # Home UI components
+│   ├── qr_scan/
+│   │   ├── cubit/          # QR scanning state management
+│   │   └── ui/
+│   │       ├── screen/     # Scanning & confirmation screens
+│   │       └── widgets/    # QR scanning UI components
+│   ├── rewards/
+│   │   ├── data/
+│   │   │   ├── models/     # Reward models
+│   │   │   └── repo/       # Rewards repository
+│   │   └── ui/
+│   │       ├── cubit/      # Rewards state management
+│   │       ├── screen/     # Reward list & details screens
+│   │       └── widgets/    # Reward UI components
+│   └── navigation/
+│       └── ui/             # Bottom navigation bar
+├── drop_me_app.dart        # Main app widget
+├── main.dart               # App entry point
+└── my_bloc_observer.dart   # BLoC event observer
 ```
 
 ---
