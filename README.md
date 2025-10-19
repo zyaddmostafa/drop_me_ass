@@ -124,13 +124,7 @@ If given more time, these features would enhance the app:
 - **Backend Integration** - REST API/Firebase for real-time data sync
 - **Real-time Point System** - Live point updates and transaction syncing across devices
 - **User Authentication** - Login system with OAuth or Firebase Auth
-- **Maps Integration** - Google Maps for RVM locations and navigation
 - **Gamification** - Achievements, leaderboards, and daily challenges
-- **Analytics** - Environmental impact tracking (CO2 saved, recycling stats)
-- **Testing** - Unit, widget, and integration tests
-- **Accessibility** - Screen reader support and high contrast mode
-- **Multi-language** - i18n support with RTL layout
-- **Performance** - Image caching and lazy loading optimizations
 
 ---
 
